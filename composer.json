@@ -1,0 +1,40 @@
+{
+    "name": "starmoozie/filemanager",
+    "description": "Starmoozie admin interface for files and folder, using elFinder",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Starmoozie",
+            "email": "starmoozie@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/starmoozie/filemanager",
+    "keywords": ["Laravel", "FileManager"],
+    "require": {
+        "starmoozie/crud": "^*",
+        "barryvdh/laravel-elfinder": "^0.4.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Starmoozie\\FileManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Starmoozie\\FileManager\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Starmoozie\\FileManager\\FileManagerServiceProvider"
+            ]
+        }
+    }
+}
