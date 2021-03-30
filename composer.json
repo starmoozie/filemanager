@@ -11,7 +11,7 @@
     "homepage": "https://github.com/starmoozie/filemanager",
     "keywords": ["Laravel", "FileManager"],
     "require": {
-        "starmoozie/crud": "^*",
+        "starmoozie/crud": "*",
         "barryvdh/laravel-elfinder": "^0.4.5"
     },
     "require-dev": {
