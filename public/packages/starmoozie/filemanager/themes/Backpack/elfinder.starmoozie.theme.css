@@ -40,7 +40,7 @@ body #elfinder.ui-widget-content {
 .elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover, 
 .elfinder-cwd table td.ui-state-hover, 
 .elfinder-button-menu .ui-state-hover {
-	/*color: black!important;*/
+	color: black!important;
 	/*font-weight: bold;*/
 }
 

@@ -44,7 +44,7 @@ class FileManagerServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->publishes([
-            __DIR__.'/../public/packages/starmoozie/filemanager/themes/Starmoozie'      => public_path('packages/starmoozie/filemanager/themes/Starmoozie'),
+            __DIR__.'/../public/packages/starmoozie/filemanager/themes/starmoozie'      => public_path('packages/starmoozie/filemanager/themes/starmoozie'),
         ], 'public');
 
         // Registering package commands.
